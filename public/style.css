@@ -34,8 +34,8 @@ a {
 	transition: color 1.2s ease-in-out, border-color 1.2s ease-in-out;
 }
 a:hover {
-	color: #38c3f0;
-	border-color: #38c3f0;
+	color: #9d81ba;
+	border-color: #9d81ba;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	-ms-transition: all 0.2s ease;
