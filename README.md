@@ -1,6 +1,6 @@
 ---
 
-Example plain HTML website using GitLab with [Netlify](https://www.netlify.com/).
+xample plain HTML website using GitLab with [Netlify](https://www.netlify.com/).
 
 ---
 
