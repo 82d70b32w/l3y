@@ -61,8 +61,8 @@ transition: all 1.2s ease-in-out;
 
 /* Anchor tag hover styles */
 a:hover {
-color: #9d81ba;
-border-color: #9d81ba;
+color: #79ffe1;
+border-color: #79ffe1;
 -webkit-transition: all 0.2s ease;
 -moz-transition: all 0.2s ease;
 -ms-transition: all 0.2s ease;
@@ -132,7 +132,7 @@ animation-fill-mode: forwards;
 ul.numchuck_skills {
   font-size: calc(100vw / 6);
   line-height: 180px;
-  color: #68f385;
+  color: #79ffe1;
   font-family: 'GingerBold', Helvetica, Arial, sans-serif;
   list-style: none;
   margin: 0;
