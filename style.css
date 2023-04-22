@@ -50,8 +50,8 @@ font: normal 400 16px/28px 'GingerBold', Helvetica, Arial, sans-serif;
 a {
 outline: none;
 text-decoration: none;
-color: black;
-border-bottom: 1px solid black;
+color: white;
+border-bottom: 1px solid white;
 -webkit-transition: all 1.2s ease-in-out;
 -moz-transition: all 1.2s ease-in-out;
 -ms-transition: all 1.2s ease-in-out;
@@ -211,16 +211,16 @@ a {
 
 /* Selection */
 ::-moz-selection {
-  background: rgba(0, 0, 0, 0.1) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
 }
 
 ::selection {
-  background: rgba(0, 0, 0, 0.1) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
 }
 
 ul::selection,
 li::selection {
-  background: rgba(0, 0, 0, 0) !important;
+  background: rgba(255, 255, 255, 255) !important;
 }
 
 /* Input placeholder */

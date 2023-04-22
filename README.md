@@ -1,32 +1,16 @@
----
-
-xample plain HTML website using GitLab with [Netlify](https://www.netlify.com/).
-
----
-
-## Netlify Configuration
-
-In order to build this site with Netlify, simply log in or register at 
-https://app.netlify.com/, then select "New site from Git" from the top
-right. Select GitLab, authenticate if needed, and then select this
-project from the list. 
-
-You will need to set the publish directory to `/public`. Netlify will handle the 
-rest.
-
-In the meantime, you can take advantage of all the great GitLab features
-like merge requests, issue tracking, epics, and everything else GitLab has
-to offer.
-
-## Did you fork this project?
-
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
-
-## Troubleshooting
-
-1. CSS is missing! That means that you have wrongly set up the CSS URL in your
-   HTML files. Have a look at the [index.html] for an example.
-
-[index.html]: https://gitlab.com/pages/plain-html/blob/master/public/index.html
+#define base00 #000000
+#define base01 #303030
+#define base02 #353535
+#define base03 #4A4A4A
+#define base04 #787878
+#define base05 #EEFFFF
+#define base06 #EEFFFF
+#define base07 #FFFFFF
+#define base08 #F07178
+#define base09 #F78C6C
+#define base0A #FDF200
+#define base0B #13CA91
+#define base0C #79ffe1
+#define base0D #7898FB
+#define base0E #ff3299
+#define base0F #FF5370
