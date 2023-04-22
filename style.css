@@ -50,8 +50,8 @@ font: normal 400 16px/28px 'GingerBold', Helvetica, Arial, sans-serif;
 a {
 outline: none;
 text-decoration: none;
-color: white;
-border-bottom: 1px solid white;
+color: black;
+border-bottom: 1px solid black;
 -webkit-transition: all 1.2s ease-in-out;
 -moz-transition: all 1.2s ease-in-out;
 -ms-transition: all 1.2s ease-in-out;
@@ -96,7 +96,7 @@ animation-fill-mode: forwards;
 
 /* Header 1 anchor tag styles */
 h1 a {
-border-color: #ccc;
+border-color: #333;
 }
 
 /* Header 1 small text styles */
@@ -225,19 +225,19 @@ li::selection {
 
 /* Input placeholder */
 ::-webkit-input-placeholder {
-  color: #999;
+  color: #666;
 }
 
 :-moz-placeholder {
-  color: #999;
+  color: #666;
 }
 
 ::-moz-placeholder {
-  color: #999;
+  color: #666;
 }
 
 :-ms-input-placeholder {
-  color: #999;
+  color: #666;
 }
 
 /* Keyframes */
