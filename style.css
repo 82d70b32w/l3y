@@ -220,7 +220,7 @@ a {
 
 ul::selection,
 li::selection {
-  background: #ffffff !important;
+  background: #000000 !important;
 }
 
 /* Input placeholder */
