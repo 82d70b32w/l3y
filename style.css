@@ -519,4 +519,5 @@ li::selection {
 }
 
 /* Styles for screens up to 480px */
-@media screen and (max-width:480px) {}
+@media screen and (max-width:480px) {
+}
