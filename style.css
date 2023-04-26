@@ -71,14 +71,19 @@ img {
   max-width: 100%;
 }
 
-/* Header 1 styles */
-h1 {
+/* Header styles */
+h1,
+h2 {
   margin: 0;
-  font-size: 22px;
-  line-height: 35px;
   font-weight: normal;
   letter-spacing: normal;
   opacity: 0;
+}
+
+/* Header 1 styles */
+h1 {
+  font-size: 22px;
+  line-height: 35px;
   animation: fadeIn 2s ease-out 1 0.1s forwards;
 }
 
@@ -94,15 +99,12 @@ h1 small {
 
 /* Header 2 styles */
 h2 {
-  margin: 0;
   position: absolute;
   top: 60%;
   left: 120px;
   font-size: 30px;
   line-height: 50px;
-  font-weight: normal;
   font-family: 'GingerBold', sans-serif;
-  opacity: 0;
   animation: fadeIn 2s ease-out 1 1.3s forwards;
 }
 
