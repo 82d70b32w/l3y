@@ -31,7 +31,7 @@ outline: none;
 body {
 margin: 0;
 height: 100%;
-font: 16px/28px 'Montserrat', Helvetica, Arial, sans-serif;
+font: 16px/28px 'Rubik', Helvetica, Arial, sans-serif;
 letter-spacing: -0.01em;
 overflow: hidden;
 }
@@ -43,7 +43,7 @@ margin: 0;
 
 /* Strong text styles */
 strong {
-font: normal 400 16px/28px 'MontserratBold', Helvetica, Arial, sans-serif;
+font: normal 400 16px/28px 'RubikBold', Helvetica, Arial, sans-serif;
 }
 
 /* Anchor tag styles */
@@ -113,7 +113,7 @@ left: 120px;
 font-size: 30px;
 line-height: 50px;
 font-weight: normal;
-font-family: 'MontserratBold', Helvetica, Arial, sans-serif;
+font-family: 'RubikBold', Helvetica, Arial, sans-serif;
 opacity: 0;
 -webkit-animation: fadeIn 2s ease-out 1 1.3s;
 -ms-animation: fadeIn 2s ease-out 1 1.3s;
@@ -133,7 +133,7 @@ ul.numchuck_skills {
   font-size: calc(100vw / 6);
   line-height: 180px;
   color: #79ffe1;
-  font-family: 'MontserratBold', Helvetica, Arial, sans-serif;
+  font-family: 'RubikBold', Helvetica, Arial, sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -367,15 +367,15 @@ opacity: 0;
 
 /* Font-face */
 @font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Regular.woff2') format('woff2');
+  font-family: 'Rubik';
+  src: url('fonts/Rubik-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'MontserratBold';
-  src: url('fonts/Montserrat-Bold.woff2') format('woff2');
+  font-family: 'RubikBold';
+  src: url('fonts/Rubik-Bold.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
