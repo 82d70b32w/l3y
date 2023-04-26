@@ -31,7 +31,7 @@ outline: none;
 body {
 margin: 0;
 height: 100%;
-font: 16px/28px 'Jost-400-Book', Helvetica, Arial, sans-serif;
+font: 16px/28px 'Ginger', Helvetica, Arial, sans-serif;
 letter-spacing: -0.01em;
 overflow: hidden;
 }
@@ -43,7 +43,7 @@ margin: 0;
 
 /* Strong text styles */
 strong {
-font: normal 400 16px/28px 'Jost-700-Bold', Helvetica, Arial, sans-serif;
+font: normal 400 16px/28px 'GingerBold', Helvetica, Arial, sans-serif;
 }
 
 /* Anchor tag styles */
@@ -113,7 +113,7 @@ left: 120px;
 font-size: 30px;
 line-height: 50px;
 font-weight: normal;
-font-family: 'Jost-700-Bold', Helvetica, Arial, sans-serif;
+font-family: 'GingerBold', Helvetica, Arial, sans-serif;
 opacity: 0;
 -webkit-animation: fadeIn 2s ease-out 1 1.3s;
 -ms-animation: fadeIn 2s ease-out 1 1.3s;
@@ -133,7 +133,7 @@ ul.numchuck_skills {
   font-size: calc(100vw / 6);
   line-height: 180px;
   color: #79ffe1;
-  font-family: 'Jost-700-Bold', Helvetica, Arial, sans-serif;
+  font-family: 'GingerBold', Helvetica, Arial, sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -367,15 +367,15 @@ opacity: 0;
 
 /* Font-face */
 @font-face {
-  font-family: 'Jost-400-Book';
-  src: url('fonts/Jost-400-Book.woff') format('woff');
+  font-family: 'Ginger';
+  src: url('fonts/ginger-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Jost-700-Bold';
-  src: url('fonts/Jost-700-Bold.woff') format('woff');
+  font-family: 'GingerBold';
+  src: url('fonts/ginger-bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
