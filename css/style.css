@@ -147,15 +147,15 @@ ul.skills li {
 }
 
 /* Skills list animations */
-ul.skills li:nth-child(2) {
+ul.skills li:nth-of-type(2) {
   animation-delay: 3s;
 }
 
-ul.skills li:nth-child(3) {
+ul.skills li:nth-of-type(3) {
   animation-delay: 6s;
 }
 
-ul.skills li:nth-child(4) {
+ul.skills li:nth-of-type(4) {
   animation-delay: 9s;
 }
 
@@ -164,6 +164,7 @@ ul.skills li:nth-child(4) {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -173,15 +174,19 @@ ul.skills li:nth-child(4) {
   0% {
     opacity: 0;
   }
+
   2% {
     opacity: 1;
   }
+
   17% {
     opacity: 1;
   }
+
   20% {
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
