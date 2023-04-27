@@ -245,55 +245,50 @@ a {
 }
 
 /* Keyframes for fadeInDown animation */
-@-webkit-keyframes fadeInDown {
-    0% { opacity: 0; -webkit-transform: translateY(-30px); }
-    100% { opacity: 1; }
-}
-@-ms-keyframes fadeInDown {
-    0% { opacity: 0; -ms-transform: translateY(-30px); }
-    100% { opacity: 1; }
-}
 @keyframes fadeInDown {
-    0% { opacity: 0; transform: translateY(-30px); }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Keyframes for fadeIn animation */
-@-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-@-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Font-face */
 @font-face {
   font-family: 'Ginger';
-  src: url('fonts/ginger-regular.woff') format('woff');
+  src: url('fonts/ginger-regular.woff') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'GingerBold';
-  src: url('fonts/ginger-bold.woff') format('woff');
-  font-weight: normal;
+  src: url('fonts/ginger-bold.woff') format('woff2');
+  font-weight: bold;
   font-style: normal;
 }
 
 /* IE */
-.ie * {
-	opacity: 1 !important;
+._ie * {
+  opacity: 1 !important;
 }
 
-.ie .skills {
-	display: none !important;
+._ie .skills {
+  display: none !important;
 }
 
 /* Styles for screens up to 1200px */
