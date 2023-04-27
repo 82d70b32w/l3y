@@ -16,7 +16,7 @@ section {
 }
 
 /* Touch screen text size adjust */
-@media (pointer: coarse) {
+@media (hover: none) {
   body {
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
@@ -24,7 +24,7 @@ section {
 }
 
 /* Remove focus outline */
-:focus:not(:focus-visible) {
+:focus {
   outline: none;
 }
 
@@ -34,7 +34,7 @@ body {
   height: 100%;
   font-family: 'Ginger', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 1.75;
   letter-spacing: -0.01em;
   overflow: hidden;
 }
@@ -47,16 +47,17 @@ p {
 /* Strong text styles */
 strong {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
   font-family: 'GingerBold', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
 }
 
 /* Anchor tag styles */
 a {
+  outline: none;
   text-decoration: none;
-  color: #000000;
-  border-bottom: 1px solid #000000;
+  color: #000;
+  border-bottom: 1px solid #000;
   transition: all 1.2s ease-in-out;
 }
 
@@ -79,43 +80,37 @@ img {
 
 /* Header 1 styles */
 h1 {
-margin: 0;
-font-size: 22px;
-line-height: 35px;
-font-weight: normal;
-letter-spacing: normal;
-opacity: 0;
--webkit-animation: fadeIn 2s ease-out 1 0.1s;
--ms-animation: fadeIn 2s ease-out 1 0.1s;
-animation: fadeIn 2s ease-out 1 0.1s;
-animation-fill-mode: forwards;
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.59;
+  font-weight: normal;
+  letter-spacing: normal;
+  opacity: 0;
+  animation: fadeIn 2s ease-out 0.1s forwards;
 }
 
 /* Header 1 anchor tag styles */
 h1 a {
-  border-color: #333333;
+  border-color: #333;
 }
 
 /* Header 1 small text styles */
 h1 small {
-font-size: 70%;
+  font-size: 70%;
 }
 
 /* Header 2 styles */
 h2 {
-margin: 0;
-position: absolute;
-top: 60%;
-left: 120px;
-font-size: 30px;
-line-height: 50px;
-font-weight: normal;
-font-family: 'GingerBold', Helvetica, Arial, sans-serif;
-opacity: 0;
--webkit-animation: fadeIn 2s ease-out 1 1.3s;
--ms-animation: fadeIn 2s ease-out 1 1.3s;
-animation: fadeIn 2s ease-out 1 1.3s;
-animation-fill-mode: forwards;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 120px;
+  font-size: 30px;
+  line-height: 1.67;
+  font-weight: normal;
+  font-family: 'GingerBold', Helvetica, Arial, sans-serif;
+  opacity: 0;
+  animation: fadeIn 2s ease-out 1.3s forwards;
 }
 
 /* Wrapper */
@@ -140,7 +135,7 @@ ul.skills {
   top: 25%;
   white-space: nowrap;
   opacity: 0;
-  animation: fadeIn 2s ease-out 1 0.6s forwards;
+  animation: fadeIn 2s ease-out 0.6s forwards;
   pointer-events: none;
 }
 
