@@ -293,75 +293,74 @@ a {
 
 /* Styles for screens up to 1200px */
 @media screen and (max-width:1200px) {
-	
-	ul.skills {
-		left: -20px;
-	}
-	
-	h2 {
-		font-size: 25px;
-		line-height: 40px;
-	}
-	
+
+  ul.skills {
+    left: -20px;
+  }
+
+  h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
 }
 
 /* Styles for screens up to 1023px */
 @media screen and (max-width:1023px) {
-	
-	.wrapper {
-		padding: 80px 80px 0 80px;
-	}
-	
-	h2 {
-		left: 80px;
-	}
-	
-	footer {
-		left: 80px;
-	}
-	
+
+  .wrapper {
+    padding: 80px 80px 0 80px;
+  }
+
+  h2 {
+    left: 80px;
+  }
+
+  footer {
+    left: 80px;
+  }
+
 }
 
 /* Styles for screens up to 767px */
 @media screen and (max-width:767px) {
-	
-	.wrapper {
-		padding: 40px 20px;
-	}
-	
-	.hide, footer {
-		display: none;
-	}
-	
-	h1 {
-		
-	}
-	
-	h1 small {
-		display: block;
-		line-height: 25px;
-	}
-	
-	ul.skills {
-		font-size: calc(100vw / 6);
-		left: -5px;
-		line-height: 100px;
-		height: 100px;
-		top: auto;
-		bottom: 10%;
-	}
-	
-	h2 {
-		font-size: 28px;
-		line-height: 42px;
-		left: 20px;
-		bottom: auto;
-		top: 35%;
-	}
-	
+
+  .wrapper {
+    padding: 40px 20px;
+  }
+
+  .hide,
+  footer {
+    display: none;
+  }
+
+  h1 {}
+
+  h1 small {
+    display: block;
+    line-height: 25px;
+  }
+
+  ul.skills {
+    font-size: calc(100vw / 6);
+    left: -5px;
+    line-height: 100px;
+    height: 100px;
+    top: unset;
+    bottom: 10%;
+    position: absolute;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 42px;
+    left: 20px;
+    bottom: unset;
+    top: 35%;
+    position: absolute;
+  }
+
 }
 
 /* Styles for screens up to 480px */
-@media screen and (max-width:480px) {
-	
-}
+@media screen and (max-width:480px) {}
