@@ -36,7 +36,7 @@ section {
 body {
   margin: 0;
   height: 100%;
-  font-family: 'Ginger', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.75;
   letter-spacing: -0.01em;
@@ -53,7 +53,7 @@ p {
 /* Strong text styles */
 strong {
   font-weight: 400;
-  font-family: 'GingerBold', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab Bold', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.75;
 }
@@ -114,7 +114,7 @@ h2 {
   font-size: 30px;
   line-height: 1.67;
   font-weight: normal;
-  font-family: 'GingerBold', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab Bold', Helvetica, Arial, sans-serif;
   opacity: 0;
   animation: fadeIn 2s ease-out 1.3s forwards;
 }
@@ -131,7 +131,7 @@ ul.skills {
   font-size: calc(100vw / 6);
   line-height: 180px;
   color: #79ffe1;
-  font-family: 'GingerBold', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab Bold', Helvetica, Arial, sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -275,15 +275,15 @@ a {
 
 /* Font-face */
 @font-face {
-  font-family: 'Ginger';
-  src: url('fonts/ginger-regular.woff') format('woff2');
+  font-family: 'Roboto Slab';
+  src: url('fonts/roboto-slab-regular.woff') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'GingerBold';
-  src: url('fonts/ginger-bold.woff') format('woff2');
+  font-family: 'Roboto Slab Bold';
+  src: url('fonts/roboto-slab-bold.woff') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
