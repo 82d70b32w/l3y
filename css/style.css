@@ -210,10 +210,10 @@ footer {
 }
 
 /* Links */
-a {
-  tap-highlight-color: rgba(0, 0, 0, 0);
-  /* Remove tap highlight */
-}
+/*a {*/
+/*  tap-highlight-color: rgba(0, 0, 0, 0);*/
+/*  /* Remove tap highlight */
+/*}*/
 
 /* Selection */
 ::selection {
