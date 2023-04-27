@@ -1,7 +1,7 @@
 /* CSS reset */
 html {
-overflow: hidden;
-height: 100%;
+  overflow: hidden;
+  height: 100%;
 }
 
 /* Display block for HTML5 elements */
@@ -10,35 +10,38 @@ aside,
 figure,
 footer,
 header,
-hgroup,
 nav,
 section {
-display: block;
+  display: block;
 }
 
 /* Touch screen text size adjust */
-.touch body {
--webkit-text-size-adjust: none;
+@media (pointer: coarse) {
+  body {
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
 }
 
 /* Remove focus outline */
-:focus {
--moz-outline-style: none;
-outline: none;
+:focus:not(:focus-visible) {
+  outline: none;
 }
 
 /* Body styles */
 body {
-margin: 0;
-height: 100%;
-font: 16px/28px 'Ginger', Helvetica, Arial, sans-serif;
-letter-spacing: -0.01em;
-overflow: hidden;
+  margin: 0;
+  height: 100%;
+  font-family: 'Ginger', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  overflow: hidden;
 }
 
 /* Remove margins for paragraphs */
 p {
-margin: 0;
+  margin: 0;
 }
 
 /* Strong text styles */
