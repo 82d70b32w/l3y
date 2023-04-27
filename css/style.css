@@ -128,8 +128,8 @@ animation-fill-mode: forwards;
   box-sizing: border-box;
 }
 
-/* Numchuck skills list */
-ul.numchuck_skills {
+/* Skills list */
+ul.skills {
   font-size: calc(100vw / 6);
   line-height: 180px;
   color: #79ffe1;
@@ -147,23 +147,23 @@ ul.numchuck_skills {
   pointer-events: none;
 }
 
-ul.numchuck_skills li {
+ul.skills li {
   position: absolute;
   opacity: 0;
   width: 100%;
   animation: rotateWord 12s cubic-bezier(1, 0, 0, 1) infinite;
 }
 
-/* Numchuck skills list animations */
-ul.numchuck_skills li:nth-child(2) {
+/* Skills list animations */
+ul.skills li:nth-child(2) {
   animation-delay: 3s;
 }
 
-ul.numchuck_skills li:nth-child(3) {
+ul.skills li:nth-child(3) {
   animation-delay: 6s;
 }
 
-ul.numchuck_skills li:nth-child(4) {
+ul.skills li:nth-child(4) {
   animation-delay: 9s;
 }
 
@@ -385,14 +385,14 @@ opacity: 0;
 	opacity: 1 !important;
 }
 
-.ie .numchuck_skills {
+.ie .skills {
 	display: none !important;
 }
 
 /* Styles for screens up to 1200px */
 @media screen and (max-width:1200px) {
 	
-	ul.numchuck_skills {
+	ul.skills {
 		left: -20px;
 	}
 	
@@ -440,7 +440,7 @@ opacity: 0;
 		line-height: 25px;
 	}
 	
-	ul.numchuck_skills {
+	ul.skills {
 		font-size: calc(100vw / 6);
 		left: -5px;
 		line-height: 100px;
