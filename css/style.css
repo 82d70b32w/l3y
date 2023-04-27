@@ -46,41 +46,35 @@ p {
 
 /* Strong text styles */
 strong {
-font: normal 400 16px/28px 'GingerBold', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'GingerBold', Helvetica, Arial, sans-serif;
 }
 
 /* Anchor tag styles */
 a {
-  outline: none;
   text-decoration: none;
   color: #000000;
   border-bottom: 1px solid #000000;
-  -webkit-transition: all 1.2s ease-in-out;
-  -moz-transition: all 1.2s ease-in-out;
-  -ms-transition: all 1.2s ease-in-out;
-  -o-transition: all 1.2s ease-in-out;
   transition: all 1.2s ease-in-out;
 }
 
 /* Anchor tag hover styles */
 a:hover {
-color: #79ffe1;
-border-color: #79ffe1;
--webkit-transition: all 0.2s ease;
--moz-transition: all 0.2s ease;
--ms-transition: all 0.2s ease;
--o-transition: all 0.2s ease;
-transition: all 0.2s ease;
+  color: #79ffe1;
+  border-color: #79ffe1;
+  transition: all 0.2s ease;
 }
 
 /* Remove borders from images inside anchor tags */
 a img {
-border: 0;
+  border: 0;
 }
 
 /* Set maximum width for images */
 img {
-max-width: 100%;
+  max-width: 100%;
 }
 
 /* Header 1 styles */
