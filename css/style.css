@@ -209,12 +209,6 @@ footer {
   animation: fadeInDown 1s ease-out 1 1.6s forwards;
 }
 
-/* Links */
-/*a {*/
-/*  tap-highlight-color: rgba(0, 0, 0, 0);*/
-/*  /* Remove tap highlight */
-/*}*/
-
 /* Selection */
 ::selection {
   background-color: #1a1a1a !important;
